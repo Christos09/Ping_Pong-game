@@ -1,4 +1,3 @@
-# Ping_Pong-game
 from pygame import *
 '''Required classes'''
 
@@ -46,7 +45,7 @@ FPS = 60
 #creating ball and paddles   
 racket1 = Player('racket.png', 30, 200, 4, 50, 150) 
 racket2 = Player('racket.png', 520, 200, 4, 50, 150)
-ball = GameSprite('tenis_ball.png', 200, 200, 4, 50, 50)
+ball = GameSprite('ball.png', 200, 200, 4, 50, 50)
 
 font.init()
 font = font.Font(None, 35)
